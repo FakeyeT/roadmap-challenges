@@ -1,1 +1,111 @@
+@font-face {
+    font-family: 'Sebino';
+    src: url('./assets/Sebino-Regular.ttf') format('truetype');
+}
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Sebino', sans-serif;
+    line-height: 1.5;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main {
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: 6.4rem;
+    text-align: left;
+    border: .3rem solid #333;
+    border-radius: 1.2rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: .5rem;
+    border-top: 0.3rem solid #333;
+    padding-top: 2.4rem;
+}
+
+.header-name {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.contact-details {
+    font-style: normal;
+    margin-top: 0;
+}
+
+.contact-details a {
+    text-decoration: none;
+    color: inherit;
+}
+
+section {
+    margin: 2rem 0;
+}
+
+.contact {
+    margin-top: 0;
+}
+
+.primary-heading {
+    color: #45CC45;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 1.6rem;
+}
+
+.heading:last-child {
+    margin: 0;
+}
+
+.secondary-heading {
+    color: #5DA8DD;
+}
+
+.experience div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.experience-achievements li {
+    margin-left: 2rem;
+}
+
+.social-links div {
+    display: flex;
+    gap: .6rem;
+}
+
+.social-links a:link,
+.social-links a:visited {
+    color: #5DA8DD;
+    text-decoration: none;
+}
+
+.social-links a:hover,
+.social-links a:active {
+    color: #333;
+    text-decoration: underline;
+    transition: all .3s;
+}
