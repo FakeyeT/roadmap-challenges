@@ -30,8 +30,7 @@ This repository includes a variety of projects focused on improving my web devel
 - Projects related to **HTML, CSS, and JavaScript** (including frameworks like React) focusing on the design and functionality of the user interface.
 
   - **Projects include:**
-    - Simple CV Website
-
+    - Single-Page CV
 ### Backend Challenges
 
 - Projects related to **Node.js, Express, APIs, databases** (SQL/NoSQL), focusing on the server-side functionality and database management.
