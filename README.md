@@ -31,6 +31,7 @@ This repository includes a variety of projects focused on improving my web devel
 
   - **Projects include:**
     - [Single-Page CV](https://roadmap.sh/projects/single-page-cv)
+    - [Basic-HTML-Website]()
 ### Backend Challenges
 
 - Projects related to **Node.js, Express, APIs, databases** (SQL/NoSQL), focusing on the server-side functionality and database management.
