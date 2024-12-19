@@ -1,118 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <main>
-        <!-- Header -->
-        <header class="header">
-            <div class="header__logo">
-                <img src="#" alt="Logo">
-                <span class="header__logo-text">My Portfolio</span>
-            </div>
-            <nav class="header__nav">
-                <ul class="header__nav-links">
-                    <li class="header__nav-item"><a href="#">Home</a></li>
-                    <li class="header__nav-item"><a href="#">Projects</a></li>
-                    <li class="header__nav-item"><a href="#">Articles</a></li>
-                    <li class="header__nav-item"><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio</title>
 
-        <!-- Hero Section -->
-        <section class="hero">
-            <h1 class="hero__title">Full-Stack Developer</h1>
-            <p class="hero__subtitle">HTML only with proper layout, no styling</p>
-        </section>
+        <link rel="stylesheet" href="./style.css" />
 
-    <!-- Section Container -->
-        <div class="section-container">
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+        </style>
+    </head>
+    <body>
+        <main>
+            <!-- Header -->
+            <header class="header">
+                <div class="header-logo">
+                    <div class="logo"></div>
+                    <span class="header__logo-text">My Portfolio</span>
+                </div>
+                <nav class="header-nav">
+                    <ul class="header-nav-links">
+                        <li class="nav-item"><a href="#">Home</a></li>
+                        <li class="nav-item">
+                            <a href="#">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Articles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
 
-            <!-- Projects Section -->
-            <section class="projects">
-                <h2 class="projects__header">Projects</h2>
-                <ul class="projects__list">
-                    <li class="projects__item"><a href="#">HTML Only Portfolio</a></li>
-                    <li class="projects__item"><a href="#">Calculator</a></li>
-                    <li class="projects__item"><a href="#">Quiz App</a></li>
-                    <li class="projects__item"><a href="#">Countdown Timer</a></li>
-                    <li class="projects__item"><a href="#">Product Upcoming Page</a></li>
-                </ul>
+            <!-- Hero Section -->
+            <section class="hero">
+                <h1 class="hero-title">Full-Stack Developer</h1>
+                <p class="hero-subtitle">
+                    HTML only with proper layout, no styling
+                </p>
             </section>
 
-            <!-- Experience Section -->
-        <section class="experience">
-            <h2 class="experience__header">Work Experience</h2>
-            <div class="experience__list">
-                <article class="experience__item">
-                    <h3 class="experience__title">roadmap.sh</h3>
-                    <p class="experience__description">Solved all the frontend projects</p>
-                    <a href="#" class="experience__link">Visit my Profile</a>
-                </article>
-                <article class="experience__item">
-                    <h3 class="experience__title">OpenSource Work</h3>
-                    <p class="experience__description">
-                        Contributed to 50 open-source projects. Made my own projects with 200 GitHub Stars.
+            <!-- Section Container -->
+            <div class="section-container">
+                <!-- Projects Section -->
+                <section class="section projects">
+                    <h2 class="projects-header">Projects</h2>
+                    <ul class="projects-list">
+                        <li class="projects-item">
+                            <a href="#">HTML Only Portfolio</a>
+                        </li>
+                        <li class="projects-item">
+                            <a href="#">Calculator</a>
+                        </li>
+                        <li class="projects-item"><a href="#">Quiz App</a></li>
+                        <li class="projects-item">
+                            <a href="#">Countdown Timer</a>
+                        </li>
+                        <li class="projects-item">
+                            <a href="#">Product Upcoming Page</a>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Experience Section -->
+                <section class="section experience">
+                    <h2 class="experience-header">Work Experience</h2>
+                    <div class="experience-list">
+                        <article class="experience-item">
+                            <h3 class="experience-title">roadmap.sh</h3>
+                            <p class="experience-description">
+                                Solved all the frontend projects
+                            </p>
+                            <a href="#" class="experience-link"
+                                >Visit my Profile</a
+                            >
+                        </article>
+                        <hr />
+                        <article class="experience-item">
+                            <h3 class="experience-title">OpenSource Work</h3>
+                            <p class="experience-description">
+                                Contributed to 50 open-source projects. Made my
+                                own projects with 200 GitHub Stars.
+                            </p>
+                            <a href="#" class="experience-link"
+                                >Visit my Profile</a
+                            >
+                        </article>
+                    </div>
+                </section>
+
+                <!-- Education Section -->
+                <section class="section education">
+                    <h2 class="education-header">Education</h2>
+                    <p class="education-summary">
+                        Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon.
+                        Organized 30 sessions.
                     </p>
-                    <a href="#" class="experience__link">Visit my Profile</a>
-                </article>
+                    <h3 class="education-courses-header">Courses I Took:</h3>
+                    <ul class="education-courses-list">
+                        <li class="education-course">
+                            Object-Oriented Programming
+                        </li>
+                        <li class="education-course">
+                            Data Structures and Algorithms
+                        </li>
+                        <li class="education-course">Web Engineering</li>
+                        <li class="education-course">
+                            Artificial Intelligence
+                        </li>
+                        <li class="education-course">
+                            Human-Computer Interaction
+                        </li>
+                        <li class="education-course">Computer Graphics</li>
+                        <li class="education-course">
+                            Database Management Systems
+                        </li>
+                        <li class="education__course">
+                            Distributed Database Systems
+                        </li>
+                        <li class="education-course">Discrete Mathematics</li>
+                    </ul>
+                </section>
             </div>
-        </section>
 
-        <!-- Education Section -->
-        <section class="education">
-            <h2 class="education__header">Education</h2>
-            <p class="education__summary">
-                Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.
-            </p>
-            <h3 class="education__courses-header">Courses I Took:</h3>
-            <ul class="education__courses-list">
-                <li class="education__course">Object-Oriented Programming</li>
-                <li class="education__course">Data Structures and Algorithms</li>
-                <li class="education__course">Web Engineering</li>
-                <li class="education__course">Artificial Intelligence</li>
-                <li class="education__course">Human-Computer Interaction</li>
-                <li class="education__course">Computer Graphics</li>
-                <li class="education__course">Database Management Systems</li>
-                <li class="education__course">Distributed Database Systems</li>
-                <li class="education__course">Discrete Mathematics</li>
-            </ul>
-        </section>
-    </div>
-
-
-        <!-- Reviews Section -->
-        <section class="reviews">
-            <h2 class="reviews__header">Reviews from My Teachers</h2>
-            <div class="reviews__list">
-                <article class="reviews__item">
-                    <p class="reviews__text">John Doe was a brilliant student. Always stood out with his assignments.</p>
-                    <div class="reviews__reviewer">
-                        <span class="reviews__reviewer-name">Jane Doe</span>
-                        <span class="reviews__reviewer-role">Assistant Professor</span>
-                    </div>
-                </article>
-                <article class="reviews__item">
-                    <p class="reviews__text">John Doe was a brilliant student. Always stood out with his assignments.</p>
-                    <div class="reviews__reviewer">
-                        <span class="reviews__reviewer-name">Jane Doe</span>
-                        <span class="reviews__reviewer-role">Assistant Professor</span>
-                    </div>
-                </article>
-                <article class="reviews__item">
-                    <p class="reviews__text">John Doe was a brilliant student. Always stood out with his assignments.</p>
-                    <div class="reviews__reviewer">
-                        <span class="reviews__reviewer-name">Jane Doe</span>
-                        <span class="reviews__reviewer-role">Assistant Professor</span>
-                    </div>
-                </article>
-            </div>
-        </section>
-    </main>
-</body>
+            <!-- Reviews Section -->
+            <section class="reviews">
+                <h2 class="reviews-header">Reviews from My Teachers</h2>
+                <div class="reviews-list">
+                    <article class="reviews-item">
+                        <p class="reviews-text">
+                            John Doe was a brilliant student. Always stood out
+                            with his assignments.
+                        </p>
+                        <div class="reviews-reviewer">
+                            <span class="reviews-reviewer-name">Jane Doe</span>
+                            <span class="reviews-reviewer-role"
+                                >Assistant Professor</span
+                            >
+                        </div>
+                    </article>
+                    <article class="reviews-item">
+                        <p class="reviews-text">
+                            John Doe was a brilliant student. Always stood out
+                            with his assignments.
+                        </p>
+                        <div class="reviews-reviewer">
+                            <span class="reviews-reviewer-name">Jane Doe</span>
+                            <span class="reviews-reviewer-role"
+                                >Assistant Professor</span
+                            >
+                        </div>
+                    </article>
+                    <article class="reviews-item">
+                        <p class="reviews-text">
+                            John Doe was a brilliant student. Always stood out
+                            with his assignments.
+                        </p>
+                        <div class="reviews-reviewer">
+                            <span class="reviews-reviewer-name">Jane Doe</span>
+                            <span class="reviews-reviewer-role"
+                                >Assistant Professor</span
+                            >
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </body>
 </html>
